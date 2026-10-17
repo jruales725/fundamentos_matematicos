@@ -501,7 +501,7 @@ const GRAPHS = {
   "ellipse-ex":   { conics: [{ ...Eh(2, -3, 5, 3), hideCovertexLabels: true }], view: { xmin: -5, xmax: 9, ymin: -8, ymax: 2 } },
   "hyperbola-ex": { conics: [Hh(1, -2, 4, 3)], view: { xmin: -9, xmax: 11, ymin: -10, ymax: 6 } },
 
-  /* Integrante 1 */
+  /* Jeiner Ruales */
   "ex-1-c": { conics: [C(-1, 4, 5)], extras: { points: [{ x: 3, y: 1, label: "P(3, 1)", k: "circle", pos: "se" }] } },
   "ex-1-p": { conics: [Pv(0, 0, 3)], view: { xmin: -9, xmax: 9, ymin: -5, ymax: 9 },
               extras: { points: [{ x: 6, y: 3, label: "L(6, 3)", k: "parabola", pos: "e" }, { x: -6, y: 3, label: "R(−6, 3)", k: "parabola", pos: "w" }],
@@ -509,7 +509,7 @@ const GRAPHS = {
   "ex-1-e": { conics: [Ev(0, 0, 5, 4)], view: { xmin: -8, xmax: 8, ymin: -7, ymax: 7 } },
   "ex-1-h": { conics: [Hh(0, 0, 3, 4)], view: { xmin: -10, xmax: 10, ymin: -8, ymax: 8 } },
 
-  /* Integrante 2 */
+  /* David Melo */
   "ex-2-c": { conics: [C(1, 5, 5)],
               extras: { points: [{ x: -2, y: 1, label: "A(−2, 1)", k: "circle", pos: "sw" }, { x: 4, y: 9, label: "B(4, 9)", k: "circle", pos: "ne" }],
                         segments: [{ x1: -2, y1: 1, x2: 4, y2: 9, k: "neutral" }] } },
@@ -517,7 +517,7 @@ const GRAPHS = {
   "ex-2-e": { conics: [{ ...Eh(2, -1, 3, 2), hideCovertexLabels: true }], view: { xmin: -3, xmax: 7, ymin: -5, ymax: 3 } },
   "ex-2-h": { conics: [Hv(2, 1, 4, 3)], view: { xmin: -8, xmax: 12, ymin: -7, ymax: 9 } },
 
-  /* Integrante 3 */
+  /* Santiago Rojas */
   "ex-3-c": { conics: [C(3, -2, 4)], view: { xmin: -3, xmax: 9, ymin: -7, ymax: 4 },
               extras: { lines: [{ p: [-1, 0], d: [4, 3], label: "3x − 4y + 3 = 0", pos: "nw" }],
                         points: [{ x: 3 - 12 / 5, y: -2 + 16 / 5, label: "T(0,6; 1,2)", pos: "nw" }] } },
